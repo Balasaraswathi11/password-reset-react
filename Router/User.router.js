@@ -1,6 +1,7 @@
 import express from 'express';
 import { userregister,userlogin ,resetPassword} from '../Controller/User.controller.js';
-import { forgotPassword } from '../Services/nodemailer.js';
+import { forgotPassword } from '../Services/Nodemail.js';
+
 
 
 const router = express.Router();
